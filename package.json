@@ -1,0 +1,28 @@
+{
+  "name": "frontend-starter-kit",
+  "version": "1.0.0",
+  "description": "Frontend starter kit for developing web apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tigraranaar/frontend-starter-kit.git"
+  },
+  "keywords": [],
+  "author": "tigraranaar",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/tigraranaar/frontend-starter-kit/issues"
+  },
+  "homepage": "https://github.com/tigraranaar/frontend-starter-kit#readme",
+  "devDependencies": {
+    "webpack": "^5.56.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.0"
+  }
+}
