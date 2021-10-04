@@ -1,0 +1,27 @@
+{
+	"extends": [
+		"stylelint-config-standard",
+		"stylelint-config-rational-order",
+		"stylelint-config-prettier"
+	],
+	"plugins": ["stylelint-order", "stylelint-scss", "stylelint-prettier"],
+	"rules": {
+		"prettier/prettier": true,
+		"at-rule-no-unknown": null,
+		"no-duplicate-selectors": true,
+		"color-named": "never",
+		"selector-combinator-space-after": "always",
+		"selector-attribute-quotes": "never",
+		"declaration-block-trailing-semicolon": "always",
+		"declaration-colon-space-before": "never",
+		"declaration-colon-space-after": "always",
+		"number-leading-zero": "always",
+		"function-url-quotes": "always",
+		"font-weight-notation": "numeric",
+		"media-feature-range-operator-space-before": "always",
+		"media-feature-range-operator-space-after": "always",
+		"media-feature-parentheses-space-inside": "never",
+		"media-feature-colon-space-before": "never",
+		"media-feature-colon-space-after": "always"
+	}
+}
