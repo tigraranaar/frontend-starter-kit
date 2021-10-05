@@ -9,8 +9,6 @@ module.exports = merge(common, {
 
   target: "browserslist",
 
-  // devtool: "source-map",
-
   module: {
 		rules: [
 			{
@@ -31,4 +29,3 @@ module.exports = merge(common, {
 		mangleExports: "size",
 	},
 });
-

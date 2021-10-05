@@ -11,8 +11,7 @@ module.exports = merge(common, {
   devServer: {
 		open: true,
 		hot: true,
-		static: "./dist",
-    contentBase: "./dist",
+		static: "./public",
 	},
 
 	output: {
@@ -27,6 +26,4 @@ module.exports = merge(common, {
 			},
 		],
 	},
-
-  plugins: [],
 });

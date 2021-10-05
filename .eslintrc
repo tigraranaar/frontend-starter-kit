@@ -10,12 +10,12 @@
 	},
 	"plugins": ["prettier"],
 	"rules": {
-		"prettier/prettier": [
-			"error",
-			{
-				"endOfLine": "crlf"
-			}
-		],
+		// "prettier/prettier": [
+		// 	"error",
+		// 	{
+		// 		"endOfLine": "crlf"
+		// 	}
+		// ],
 		"import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
 	}
 }

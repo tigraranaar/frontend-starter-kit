@@ -1,18 +1,16 @@
 ul {
-  // all: initial;
+	// all: initial;
 }
+
 body {
-  background-color: burlywood;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(219, 177, 122);
 }
 
 h1 {
-  font-size: 60px;
-  color:bisque;
-}
-
-h1 {
-  margin-block: 0;
+	color: rgb(241, 211, 174);
+	font-size: 60px;
+	margin-block: 0;
 }
